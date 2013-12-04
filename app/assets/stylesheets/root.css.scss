@@ -5,6 +5,7 @@
 body {
   background-color: #EEEEEE;
   color: #5E5656;
+  font-family: "Lato";
 }
 
 .header h1 {
@@ -21,10 +22,20 @@ hr {
   margin: 70px 0;
 }
 
-.jumbotron {
+.container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.main-page {
+  padding-top: 150px;
+}
+
+.header {
 //  background: url('http://i.imgur.com/5Gm2C8y.png');
   background-color: #fdfdfd;
-  height: 200px;
+  height: 150px;
   position: fixed;
   width: 100%;
   text-align: center;
@@ -33,12 +44,27 @@ hr {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.jumbotron h1 {
-  font-weight: bold;
+.header h1 {
+  font-weight: 100;
   font-size: 50px;
-  height: 150px;
-  line-height: 150px;
+  height: 90px;
+  line-height: 100px;
   margin: 0;
+}
+
+nav a {
+  background-color: green !important;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 26px;
+  font-weight: normal;
+  height: 40px;
+  margin: 0 3px;
+  padding-top: 20px;
+  text-align: center;
+  font-family: "Lato";
+  text-transform: uppercase;
 }
 
 .container h1 {
@@ -46,22 +72,42 @@ hr {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+//
+//.about-me {
+//  text-align: center;
+//}
 
-.about-me {
-  text-align: center;
-}
-
-.about-me .avatar {
+.about-me .span4 .avatar {
   width: 200px;
   height: 200px;
-  border-radius: 20px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
-.about-me .avatar-detail {
+.about-me .span .avatar-detail {
   padding-top: 15px;
 }
 
-.container {
-  padding-top: 200px;
+.about-me {
+  background-color: #5dade2;
+  text-align: center;
+}
+
+.about-me-desc {
+  text-align: center;
+  margin: 0;
+  padding: 25px 10% 0% 10%;
+  background-color: #3498DB;
+  color: white;
+}
+
+.about-me-desc .span4 {
+  width: 33.3%;
+  padding: 0;
+  margin: 0;
 }
 
