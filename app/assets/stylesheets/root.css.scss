@@ -4,7 +4,7 @@
 
 body {
   background-color: #EEEEEE;
-  color: #5E5656;
+  color: #FFFFFF;
   font-family: "Lato";
 }
 
@@ -30,6 +30,7 @@ hr {
 
 .main-page {
   padding-top: 150px;
+  font-size: 18px;
 }
 
 .header {
@@ -52,62 +53,85 @@ hr {
   margin: 0;
 }
 
-nav a {
-  background-color: green !important;
+nav .button {
+  background-color: #DAFFFF !important;
   text-decoration: none;
-  cursor: pointer;
+//  cursor: pointer;
   display: inline-block;
-  font-size: 26px;
+  font-family: "Lato";
+  font-size: 30px;
   font-weight: normal;
   height: 40px;
   margin: 0 3px;
   padding-top: 20px;
   text-align: center;
-  font-family: "Lato";
   text-transform: uppercase;
 }
 
-.container h1 {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+.about-me .span8 h1 {
+  text-align: left;
+//  padding-top: 25px;
+  padding-left: 15%;
+//  padding-bottom: 20px;
+  font-size: 45px;
 }
-//
-//.about-me {
-//  text-align: center;
-//}
+
+.about-me {
+  font-size: 28px;
+  background-color: #5dade2;
+  padding: 25px 10% 25px 10%;
+}
+
+.about-me .span8 .intro {
+  font-size: 40px;
+  line-height: 65px;
+  padding-top: 25px;
+}
+
+.about-me .span4 {
+  padding: 0 0 0 0;
+  margin: 0;
+  width: 33%;
+  text-align: center;
+}
+
+.about-me .span8 {
+  padding: 0;
+  margin: 0;
+  width: 66%;
+
+}
 
 .about-me .span4 .avatar {
   width: 200px;
   height: 200px;
-  border-radius: 150px;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150px;
+  border-radius: 50%;
 	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
-.about-me .span .avatar-detail {
-  padding-top: 15px;
-}
-
-.about-me {
-  background-color: #5dade2;
-  text-align: center;
+.about-me .span4 .avatar-detail {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 20px;
 }
 
 .about-me-desc {
   text-align: center;
   margin: 0;
-  padding: 25px 10% 0% 10%;
+  padding: 25px 10% 25px 10%;
   background-color: #3498DB;
   color: white;
 }
 
 .about-me-desc .span4 {
-  width: 33.3%;
-  padding: 0;
+  width: 28.3%;
+  padding: 10px 2.5% 0 2.5%;
   margin: 0;
+
 }
 
+.about-me-desc .span4 p {
+  font-size: 20px;
+  line-height: 35px;
+  text-align: left;
+}
