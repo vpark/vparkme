@@ -8,18 +8,25 @@ body {
   font-family: "Lato";
 }
 
-.header h1 {
-  color: #5E5656;
-}
+//hr {
+//  height: 1.5px;
+//  background-color: rgb(228, 228, 228);
+//  margin: 20px 0;
+//}
+//
+//hr .short{
+//  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+//  background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+//  background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+//  background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+//  border: 0;
+//  height: 3px;
+//  margin: 20px 0;
+//}
 
 hr {
-  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
-  background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
-  background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
-  background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
-  border: 0;
-  height: 3px;
-  margin: 70px 0;
+  margin: 0 10%;
+  text-align: center;
 }
 
 .container {
@@ -43,6 +50,7 @@ hr {
   color: #635F5F;
   font-family: helvetica;
   border-bottom: 1px solid #e5e5e5;
+  z-index: 1;
 }
 
 .header h1 {
@@ -51,6 +59,7 @@ hr {
   height: 90px;
   line-height: 100px;
   margin: 0;
+  color: #5E5656;
 }
 
 nav .button {
@@ -68,6 +77,22 @@ nav .button {
   text-transform: uppercase;
 }
 
+.row {
+  margin: 0;
+  padding: 25px 10% 25px 10%;
+}
+
+.about-me {
+  font-size: 28px;
+  background-color: #5dade2;
+}
+
+.about-me .span8 {
+  padding: 0;
+  margin: 0;
+  width: 66%;
+}
+
 .about-me .span8 h1 {
   text-align: left;
 //  padding-top: 25px;
@@ -76,16 +101,15 @@ nav .button {
   font-size: 45px;
 }
 
-.about-me {
-  font-size: 28px;
-  background-color: #5dade2;
-  padding: 25px 10% 25px 10%;
-}
-
 .about-me .span8 .intro {
   font-size: 40px;
   line-height: 65px;
   padding-top: 25px;
+}
+
+.about-me .span8 .title {
+  font-weight: bolder;
+  font-size: larger;
 }
 
 .about-me .span4 {
@@ -93,13 +117,6 @@ nav .button {
   margin: 0;
   width: 33%;
   text-align: center;
-}
-
-.about-me .span8 {
-  padding: 0;
-  margin: 0;
-  width: 66%;
-
 }
 
 .about-me .span4 .avatar {
@@ -117,10 +134,9 @@ nav .button {
 
 .about-me-desc {
   text-align: center;
-  margin: 0;
-  padding: 25px 10% 25px 10%;
   background-color: #3498DB;
   color: white;
+  padding-bottom: 50px;
 }
 
 .about-me-desc .span4 {
@@ -135,3 +151,76 @@ nav .button {
   line-height: 35px;
   text-align: left;
 }
+
+.projects-container {
+  width: 80%;
+  padding: 0 10% 0 10%;
+  background-color: #5dade2;
+}
+
+.projects {
+  text-align: center;
+  background-color: #FFFFFF;
+  color: #3498DB;
+  opacity: 0.9;
+  margin: -30px 0 0 0;
+  border-radius: 15px;
+  padding: 25px 0 0 0;
+}
+
+.projects h1 {
+  font-size: 45px;
+}
+
+.project-row {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.project-row .span4 {
+  padding: 25px 0 0 0;
+  margin: 0;
+  width: 33%;
+}
+
+.project-row .span4 .image {
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.project-row .span8 {
+  padding: 0 0 0 0;
+  margin: 0;
+  width: 66%;
+  text-align: left;
+  font-size: 32px;
+  line-height: 50px;
+}
+
+.project-row .span8 .title {
+  font-size: 35px;
+  text-align: center;
+}
+
+.something {
+  text-align: center;
+  padding-top: 0;
+  background-color: #3498DB;
+}
+
+.downtri {
+  padding-top: 0;
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #5dade2;
+}
+
+
+
+
+
