@@ -1,21 +1,25 @@
+
 <div class="jumbotron header">
-  <h1>Vincent Park</h1>
-  <nav>
-    <a class="button" href="#">About</a>
-    <a class="button" href="#">Projects</a>
-    <a class="button" href="#">Contact</a>
+  <a class='h1' href='#'>
+    <h1>Vincent Park</h1>
+  </a>
+  <nav id="scroll">
+    <a class="button" href="#about">About</a>
+    <a class="button" href="#projects">Projects</a>
+    <a class="button" href="#contact">Contact</a>
   </nav>
 </div>
 
 <div class='main-page container'>
   
   <!-- About Me -->
+  <a class='links' name="about"></a>
   <div class='about-me row'>
     <div class="span4">
       <img class="avatar" src="https://1.gravatar.com/avatar/ee569db06b0aaf19cd56d2076de780ba?d=https%3A%2F%2Fidenticons.github.com%2F28c6f010fb155c3a2c19937e3124e70d.png&amp;r=x&amp;s=440">
       <div class='avatar-detail'>
         <p>Vincent Park</p>
-        <p>Software Engineer</p>
+        <p>Software Developer</p>
         <p>San Francisco, CA</p>
       </div>
     </div>
@@ -51,9 +55,11 @@
       </span>
       <p>Spontaneity is awesome. I love late-night car/bus/train rides to new places or an evening out without an itinerary. I also enjoy cooking, working out, and playing poker with friends.</p>
     </div>
+
   </div>
   
   <!-- Projects -->
+  <a class='links' name="projects"></a>
   <div class='projects-container container'>
   <div class='projects'>
     <h1>Projects</h1>
@@ -61,13 +67,20 @@
     <!-- Single Project -->
     <div class='project-row row'>
       <div class='span4'>
-        <img class='image' src="http://static2.wikia.nocookie.net/__cb20130205014445/thehungergames/images/thumb/5/5c/Sad-forever-alone-face-only-l.png/473px-Sad-forever-alone-face-only-l.png">
+        <a href="http://u.mbrello.com" target="_blank">
+          <img class='image' src="assets/umbrello.png">
+        </a>
       </div>
       
       <div class='span8'>
-        <h1 class='title'> Snake.js</h1>
+        <h1 class='title'> u.mbrello</h1>
         <hr class='short'>
-        <p> a clean, minimalist version of the classic game Snake using JavaScript.</p>
+        <p> Lightweight Trello clone (task organizer app)</p>
+        <ul>
+          <li>Built a single-page application using Rails and Backbone.js</li>
+          <li>Features: create/delete options for boards, lists, and cards; sorting/reordering</li>
+          <li>In-development: comment attachment for notes, multi-user lists</li>
+        </ul>
       </div>
     </div>
     <hr>
@@ -76,13 +89,65 @@
 
     <div class='project-row row'>
       <div class='span8'>
+        <h1 class='title'> Snake.js</h1>
+        <hr class='short'>
+        <p> Recreation of	the	classic	arcade	game	Snake	using	JavaScript,	HTML5,	and	CSS </p>
+
+      </div>
+      
+      <div class='span4'>
+        <a href="https://github.com/vpark/snake-js" target="_blank">
+          <img class='image' src="/assets/snake.png">
+        </a>
+      </div>
+    </div>
+    <hr>
+
+    <!-- Single Project -->
+    <div class='project-row row'>
+      <div class='span4'>
+        <img class='image' src="/assets/snake.png">
+      </div>
+      
+      <div class='span8'>
         <h1 class='title'> Simple ActiveRecord</h1>
         <hr class='short'>
-        <p>A light version of Ruby on Rails' ActiveRecord. Features include implementation of ActiveRecord's built-in methods and associations for models.</p>
+        <p> Implementation of the core functions of Ruby on Rails' ActiveRecord in Ruby</p>
+        <ul>
+          <li>Features include ActiveRecord’s built-in methods and associations for models</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+
+    <!-- Single Project -->
+
+    <div class='project-row row'>
+      <div class='span8'>
+        <h1 class='title'> Simple Rails</h1>
+        <hr class='short'>
+        <p>Implementation of the core component of the controller and the view layers of Ruby on Rails</p>
       </div>
       
       <div class='span4'>
         <img class='image' src="http://static2.wikia.nocookie.net/__cb20130205014445/thehungergames/images/thumb/5/5c/Sad-forever-alone-face-only-l.png/473px-Sad-forever-alone-face-only-l.png">
+      </div>
+    </div>
+    <hr>
+    
+    <!-- Single Project -->
+    <div class='project-row row'>
+      <div class='span4'>
+        <img class='image' src="/assets/icecream.jpg" alt="image credit: realsimple.com">
+      </div>
+      
+      <div class='span8'>
+        <h1 class='title'> Ice Cream Finder</h1>
+        <hr class='short'>
+        <p> CLI Program using Google Place, Geocode, and Directions API</p>
+        <ul>
+          <li>Displays search and navigation options based on user input to find ice cream shops</li>
+        </ul>
       </div>
     </div>
     <hr>
@@ -95,29 +160,36 @@
   <div class="downtri"></div>
 </div> -->
 
-
+<a class='links' name="contact"></a>
 <div class='contact-me row'>
   <h1> Contact Me </h1>
-  <p> <i class="fa fa-quote-left fa-2x"></i> If you want to get in touch with me, <a href="mailto:vincentpark@gmail.com">let me know!</a> I'm always down for a cup of coffee.</p>
+  <p> <i class="fa fa-quote-left fa-2x"></i> If you want to get in touch with me, <a href="mailto:vincentpark@gmail.com">let me know!</a> I'm always down for a coffee chat.</p>
 
-    <div class='span4'>
+    <div class='span3'>
       <a href="https://github.com/vpark">
         <i class="fa fa-github fa-3x"></i>
         <br>
       github.</a>
     </div>
     
-    <div class='span4'>
-      <a href="http://www.linkedin.com/pub/vincent-park/67/bb8/859">
+    <div class='span3'>
+      <a href="http://www.linkedin.com/in/vpark">
         <i class="fa fa-linkedin-square fa-3x"></i>
         <br>
       linkedin.</a>   
     </div>
     
-    <div class='span4'>
-      <a href="#">
+    <div class='span3'>
+      <a href="/assets/vincentpark_resume.pdf">
         <i class="fa fa-file-text-o fa-3x"></i>
         <br>
       resume.</a>
+    </div>
+    
+    <div class='span3'>
+      <a href="mailto:vincentpark@gmail.com">
+        <i class="fa fa-envelope-o fa-3x"></i> 
+        <br>
+      email.</a>
     </div>
 </div>

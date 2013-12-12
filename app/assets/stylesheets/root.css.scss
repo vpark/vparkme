@@ -29,6 +29,14 @@ hr {
   text-align: center;
 }
 
+.links {
+    display: block; 
+    content: " "; 
+    margin-top: -200px; 
+    height: 200px; 
+    visibility: hidden; 
+}
+
 .container {
   padding: 0;
   margin: 0;
@@ -43,6 +51,7 @@ hr {
 .header {
 //  background: url('http://i.imgur.com/5Gm2C8y.png');
   background-color: #FFFFFF;
+  opacity: .9;
   height: 150px;
   position: fixed;
   width: 100%;
@@ -60,6 +69,15 @@ hr {
   line-height: 100px;
   margin: 0;
   color: #5E5656;
+}
+
+.header h1:hover {
+ color: #383838;
+}
+
+.header a {
+  text-decoration: none !important;
+  color: #414141;
 }
 
 nav .button {
@@ -212,6 +230,16 @@ nav .button:hover {
   text-align: center;
 }
 
+.project-row .span8 li {
+  line-height: 30px;
+  font-size: 25px;
+}
+
+.project-row .span8 p {
+  line-height: 50px;
+  font-size: 30px;
+}
+
 .after {
   text-align: center;
   padding-top: 0;
@@ -257,27 +285,27 @@ nav .button:hover {
   color: #96D5FF;
 }
 
-.contact-me .span4 {
+.contact-me .span3 {
   text-align: center;
   padding: 20px 0 0 0;
   margin: 0;
-  width: 33%;
+  width: 25%;
 }
 
-.contact-me .span4 a {
+.contact-me .span3 a {
   text-align: center;
   color: #FFFFFF;
   font-size: 40px;
 }
 
-.contact-me .span4 a:hover {
+.contact-me .span3 a:hover {
   text-decoration: inherit;
   cursor: pointer;
   color: #96D5FF;
 }
 
 
-.contact-me .span4 i {
+.contact-me .span3 i {
   padding-bottom: 15px;
 }
 
