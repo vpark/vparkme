@@ -18,15 +18,14 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+  gem 'twitter-bootstrap-rails'
+  gem "therubyracer"
+  gem "less-rails"
 end
 
 group :production do
   gem 'rails_12factor'
 end
-
-gem 'twitter-bootstrap-rails'
-gem "therubyracer"
-gem "less-rails"
 
 gem 'jquery-rails'
 gem 'better_errors'
