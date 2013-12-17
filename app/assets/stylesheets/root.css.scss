@@ -177,7 +177,7 @@ nav .button:hover {
 .projects-container {
   width: 80%;
   padding: 0 10% 35px 10%;
-  margin-top: 2px;
+  margin-top: 1px;
   background-color: #5dade2;
   background: url(http://i.imgur.com/vJkz4LA.jpg);
   background-repeat: no-repeat;
@@ -224,12 +224,16 @@ nav .button:hover {
   background: url(/assets/icecream1.jpg) no-repeat;
   background-size: cover;
   background-position: 45% 100%;
+  margin: 0 auto;
+  float: none;
 } 
 
 .project-row .span4 .icecream:hover {
   background: url(/assets/icecream2.jpg) no-repeat;
   background-size: cover;
   background-position: 45% 100%;
+  margin: 0 auto;
+  float: none;
 }
 
 .project-row .span8 {
