@@ -218,7 +218,18 @@ nav .button:hover {
 
 .project-row .span4 .image:hover {
 	box-shadow: 0 0 25px rgba(0, 0, 0, .8);
-  
+}
+
+.project-row .span4 .icecream {
+  background: url(/assets/icecream1.jpg) no-repeat;
+  background-size: cover;
+  background-position: 45% 100%;
+} 
+
+.project-row .span4 .icecream:hover {
+  background: url(/assets/icecream2.jpg) no-repeat;
+  background-size: cover;
+  background-position: 45% 100%;
 }
 
 .project-row .span8 {
