@@ -177,7 +177,7 @@ nav .button:hover {
 .projects-container {
   width: 80%;
   padding: 0 10% 35px 10%;
-  margin-top: 1px;
+  margin-top: 2px;
   background-color: #5dade2;
   background: url(http://i.imgur.com/vJkz4LA.jpg);
   background-repeat: no-repeat;
@@ -196,7 +196,7 @@ nav .button:hover {
 
 .projects h1 {
   font-size: 45px;
-}
+} 
 
 .project-row {
   padding-left: 5%;
@@ -214,6 +214,11 @@ nav .button:hover {
   height: 200px;
   border-radius: 50%;
 	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.project-row .span4 .image:hover {
+	box-shadow: 0 0 25px rgba(0, 0, 0, .8);
+  
 }
 
 .project-row .span8 {
