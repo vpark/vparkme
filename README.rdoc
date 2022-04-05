@@ -3,4 +3,4 @@ website URL: vpark.me
 
 Github: github.com/vpark/vparkme
 
-The website was built using Rails, HTML5, and CSS3. Contact me at vincentpark (at) gmail (dot) com if you have any specific questions.
+The website was built using Rails, HTML5, and CSS3.
